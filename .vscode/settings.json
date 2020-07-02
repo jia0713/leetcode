@@ -1,0 +1,7 @@
+{
+<<<<<<< HEAD
+    "python.pythonPath": "/opt/anaconda3/envs/MachineLearning/bin/python"
+=======
+    "python.pythonPath": "C:\\Users\\Administrator\\.conda\\envs\\MachineLearning\\python.exe"
+>>>>>>> c77f1c7b4b1f63926edb03b53096ef55a959ba1b
+}
