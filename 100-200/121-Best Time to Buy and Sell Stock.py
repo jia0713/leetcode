@@ -14,10 +14,19 @@ class Solution:
             index += 1
         return max_profit
 
+# DP solution
+class Solution_2(object):
+    def maxProfit(self, prices):
+        """
+        :type prices: List[int]
+        :rtype: int
+        """
+        if not prices:
+            return 0
+        dp = [0] * len(prices)
+        for i in range(1, len(prices)):
+            dp[i] = max(0, dp[i-1]) + (prices[i]-prices[i-1])
+        return max(dp)
 
-if __name__ == "__main__":
-    sol = Solution()
-    answer = sol.maxProfit([7, 1, 4, 6, 5, 3, 9])
-    print (answer)
 
 
