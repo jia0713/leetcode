@@ -6,7 +6,7 @@ class Solution(object):
         :rtype: int
         """
         left, right = 1, max(piles)
-        while(left < right):
+        while left < right:
             mid = left + (right - left) // 2
             mid_time = self.count_hours(piles, mid)
             if mid_time > H:
@@ -14,7 +14,7 @@ class Solution(object):
             if mid_time <= H:
                 right = mid
         return left
-        
+
     def count_hours(self, piles, K):
         res = 0
         for pile in piles:

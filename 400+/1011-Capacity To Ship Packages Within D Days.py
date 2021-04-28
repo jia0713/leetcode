@@ -5,9 +5,9 @@ class Solution(object):
         :type D: int
         :rtype: int
         """
-        l = max((sum(weights)-1) // D + 1, max(weights))
+        l = max((sum(weights) - 1) // D + 1, max(weights))
         r = sum(weights)
-        while(l < r):
+        while l < r:
             candi, need = (l + r) // 2, 1
             remain = candi
             for i in range(len(weights)):

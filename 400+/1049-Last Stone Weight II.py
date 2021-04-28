@@ -12,8 +12,8 @@ class Solution(object):
             dp = [False] * (stone_sum + 1)
             for j in range(len(temp_dp)):
                 if temp_dp[j]:
-                    dp[j+stones[i]] = True
-                    dp[abs(j-stones[i])] = True
+                    dp[j + stones[i]] = True
+                    dp[abs(j - stones[i])] = True
         for i in range(len(dp)):
             if dp[i]:
                 return i

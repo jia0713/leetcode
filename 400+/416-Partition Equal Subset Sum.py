@@ -14,7 +14,7 @@ class Solution(object):
             temp_dp = [x for x in dp]
             for j in range(nums_sum):
                 if temp_dp[j]:
-                    dp[j+nums[i]] = True
+                    dp[j + nums[i]] = True
             if dp[target]:
                 return True
         return False

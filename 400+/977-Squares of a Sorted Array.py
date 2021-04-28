@@ -1,4 +1,6 @@
 import collections
+
+
 class Solution(object):
     def sortedSquares(self, A):
         answer = collections.deque()

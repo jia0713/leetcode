@@ -6,7 +6,7 @@ class Solution(object):
         :rtype: int
         """
         cur, res = numBottles, numBottles
-        while(cur >= numExchange):
+        while cur >= numExchange:
             res += cur // numExchange
             cur = cur % numExchange + cur // numExchange
         return res

@@ -1,4 +1,5 @@
-#这方法是谁想出来的，服了
+# 这方法是谁想出来的，服了
+
 
 class Solution(object):
     def reconstructQueue(self, people):

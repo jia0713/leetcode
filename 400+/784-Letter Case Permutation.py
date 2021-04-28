@@ -17,4 +17,4 @@ class Solution(object):
                 for char in candi:
                     res.append(string + char)
         res = list(set(res))
-        return res 
+        return res

@@ -16,7 +16,7 @@ class Solution(object):
         self.calLeft(root.left, "left")
         self.calLeft(root.right, "right")
         return self.res
-        
+
     def calLeft(self, root, label):
         if not root:
             return

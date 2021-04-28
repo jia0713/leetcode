@@ -4,6 +4,8 @@ class TreeNode(object):
         self.val = val
         self.left = left
         self.right = right
+
+
 class Solution(object):
     def rangeSumBST(self, root, L, R):
         """
@@ -15,7 +17,7 @@ class Solution(object):
         self.res = 0
         self.findRangeSum(root, L, R)
         return self.res
-        
+
     def findRangeSum(self, root, L, R):
         if not root:
             return
