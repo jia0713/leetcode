@@ -25,6 +25,7 @@ class Solution(object):
                         res = max(res, i - current)
         return res
 
+
 # DP + stack
 class Solution_2(object):
     def longestValidParentheses(self, s):

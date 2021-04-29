@@ -5,7 +5,8 @@
 def guess(num):
     constant = 0
     return constant
-    
+
+
 class Solution(object):
     def guessNumber(self, n):
         """
@@ -13,7 +14,7 @@ class Solution(object):
         :rtype: int
         """
         left, right = 1, n
-        while(left < right):
+        while left < right:
             my_guess = left + (right - left) // 2
             if guess(my_guess) == 0:
                 return my_guess

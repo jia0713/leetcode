@@ -7,10 +7,10 @@ class Solution(object):
         vowels = "AEIOUaeiou"
         i, j = 0, len(s) - 1
         res = list(s)
-        while(i < j):
-            while(i <= len(s) - 1 and s[i] not in vowels):
+        while i < j:
+            while i <= len(s) - 1 and s[i] not in vowels:
                 i += 1
-            while(j >= 0 and s[j] not in vowels):
+            while j >= 0 and s[j] not in vowels:
                 j -= 1
             if i >= j:
                 break

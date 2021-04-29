@@ -5,7 +5,7 @@ class Solution(object):
         :rtype: int
         """
         left, right = 0, n
-        while(left < right):
+        while left < right:
             mid = left + (right - left + 1) // 2
             mid_sum = (mid + 1) * mid // 2
             if mid_sum == n:

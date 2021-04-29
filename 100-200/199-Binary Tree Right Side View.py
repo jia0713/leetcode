@@ -5,6 +5,8 @@
 #         self.left = left
 #         self.right = right
 from collections import deque
+
+
 class Solution(object):
     def rightSideView(self, root):
         """
@@ -15,7 +17,7 @@ class Solution(object):
             return []
         res, queue = [], deque()
         queue.append([root])
-        while(queue):
+        while queue:
             cur_nodes = queue.popleft()
             res.append(cur_nodes[-1].val)
             new_nodes = []

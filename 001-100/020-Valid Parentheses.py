@@ -6,12 +6,12 @@ class Solution(object):
         """
         if not s:
             return True
-        par_dict = {")":"(", "]":"[", "}":"{"}
+        par_dict = {")": "(", "]": "[", "}": "{"}
         stack = []
         for i in range(len(s)):
             if s[i] not in par_dict:
                 stack.append(s[i])
-	#不要忘记栈为空的情况
+            # 不要忘记栈为空的情况
             elif not stack:
                 return False
             elif stack.pop() != par_dict[s[i]]:

@@ -8,7 +8,7 @@ class Solution(object):
         if len(nums) == 2:
             return 1
         left, right = 1, len(nums) - 1
-        while(left < right):
+        while left < right:
             count, mid = 0, (left + right) // 2
             for i in range(len(nums)):
                 if nums[i] < mid:

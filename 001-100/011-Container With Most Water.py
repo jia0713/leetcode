@@ -19,6 +19,4 @@ class Solution:
 if __name__ == "__main__":
     sol = Solution()
     answer = sol.maxArea([1, 2, 4, 3, 2, 6, 7])
-    print (answer)
-
-
+    print(answer)

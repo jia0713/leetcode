@@ -18,9 +18,9 @@ class Solution(object):
             return 2 ** left + self.countNodes(root.right)
         else:
             return 2 ** right + self.countNodes(root.left)
-        
+
     def getDepth(self, root):
         if not root:
             return 0
         else:
-            return 1 + self.getDepth(root.left) 
+            return 1 + self.getDepth(root.left)

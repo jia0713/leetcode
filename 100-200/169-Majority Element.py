@@ -15,5 +15,4 @@ class Solution:
 if __name__ == "__main__":
     sol = Solution()
     answer = sol.majorityElement([1, 3, 1, 3, 3, 3])
-    print (answer)
-
+    print(answer)

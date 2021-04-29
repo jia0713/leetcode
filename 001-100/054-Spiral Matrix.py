@@ -9,7 +9,7 @@ class Solution(object):
         left, right = 0, len(matrix[0]) - 1
         top, bottom = 0, len(matrix) - 1
         res = []
-        while(True):
+        while True:
             for i in range(left, right + 1):
                 res.append(matrix[top][i])
             top += 1

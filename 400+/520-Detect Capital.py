@@ -15,7 +15,7 @@ class Solution(object):
                 if self.isCapital(word[i]):
                     return False
         return True
-                
+
     def isCapital(self, char):
         if ord(char) >= 97 and ord(char) <= 122:
             return False

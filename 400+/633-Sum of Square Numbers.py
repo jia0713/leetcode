@@ -13,7 +13,8 @@ class Solution(object):
             else:
                 return True
         return False
-        
+
+
 class Solution_2(object):
     def judgeSquareSum(self, c):
         """

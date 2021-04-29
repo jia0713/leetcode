@@ -14,7 +14,7 @@ class Solution(object):
             return []
         cur, pre, res = [root], [], [[root.val]]
         count = 0
-        while (cur):
+        while cur:
             pre = cur
             cur, temp_res = [], []
             for item in pre:

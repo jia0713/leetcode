@@ -15,5 +15,4 @@ if __name__ == "__main__":
 
     sol = Solution()
     answer = sol.maxProfit([7, 1, 4, 9, 5, 3, 6, 8])
-    print (answer)
-
+    print(answer)

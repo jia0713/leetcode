@@ -8,8 +8,6 @@ class Solution(object):
         num_dict = {}
         for index, num in enumerate(nums):
             if target - num in num_dict:
-                return [index, num_dict[target-num]]
+                return [index, num_dict[target - num]]
             else:
                 num_dict[num] = index
-            
-			

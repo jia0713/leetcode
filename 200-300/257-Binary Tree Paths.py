@@ -13,7 +13,7 @@ class Solution(object):
         self.res = []
         self.dfs(root, str(root.val))
         return self.res
-    
+
     def dfs(self, root, path):
         if not root.left and not root.right:
             self.res.append(path)

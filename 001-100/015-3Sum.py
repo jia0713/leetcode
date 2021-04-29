@@ -11,7 +11,7 @@ class Solution:
             target = -1 * value
             for i in range(index + 1, len(nums)):
                 if target - nums[i] in dic.values():
-                    arr = [value, target-nums[i], nums[i]]
+                    arr = [value, target - nums[i], nums[i]]
                     arr.sort()
                     if arr not in res:
                         res.append(arr)
@@ -24,5 +24,4 @@ if __name__ == "__main__":
 
     sol = Solution()
     answer = sol.threeSum([1, -1, 1, -1, 0])
-    print (answer)
-
+    print(answer)

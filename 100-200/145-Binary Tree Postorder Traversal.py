@@ -14,7 +14,7 @@ class Solution(object):
             return []
         res = []
         post_stack = [root]
-        while(post_stack):
+        while post_stack:
             p = post_stack.pop()
             res = [p.val] + res
             if p.left:
@@ -22,6 +22,7 @@ class Solution(object):
             if p.right:
                 post_stack.append(p.right)
         return res
+
 
 # 一个比较巧妙的方法
 # 后续遍历 左-右-中，可以先写成前序遍历 中-右-左 然后把结果reverse
@@ -34,7 +35,7 @@ class Solution_2(object):
         if not root:
             return []
         p, pstack, res = root, [], []
-        while(p or pstack):
+        while p or pstack:
             if p == None:
                 p = pstack.pop()
                 p = p.left

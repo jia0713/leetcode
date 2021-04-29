@@ -7,7 +7,7 @@ class Solution(object):
         """
         res = 0
         a = x ^ y
-        while(a != 0):
+        while a != 0:
             res += 1
-            a = a & (a-1)
+            a = a & (a - 1)
         return res

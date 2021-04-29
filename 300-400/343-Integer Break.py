@@ -13,4 +13,3 @@ class Solution(object):
         else:
             res += 3
             return 3 ** (a - 1) * res
-            

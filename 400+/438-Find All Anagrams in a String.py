@@ -19,7 +19,7 @@ class Solution(object):
                 p_dict[p[i]] = 1
         self.res = []
         self.isSameDict(s_dict, p_dict, 0)
-        for index in range(0, len(s)-len(p)):
+        for index in range(0, len(s) - len(p)):
             new_add_index = len(p) + index
             if s[new_add_index] in s_dict:
                 s_dict[s[new_add_index]] += 1
@@ -28,7 +28,7 @@ class Solution(object):
             s_dict[s[index]] -= 1
             self.isSameDict(s_dict, p_dict, index + 1)
         return self.res
-        
+
     def isSameDict(self, s_dict, p_dict, index):
         for key, value in p_dict.items():
             if key not in s_dict or s_dict[key] != value:

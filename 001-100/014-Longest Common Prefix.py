@@ -12,5 +12,5 @@ class Solution(object):
                 if i == len(strs[j]) or strs[j][i] != strs[0][i]:
                     return prefix
             prefix += strs[0][i]
-# 容易忘掉循环走完的return
+        # 容易忘掉循环走完的return
         return prefix

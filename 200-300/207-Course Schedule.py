@@ -1,6 +1,8 @@
 # 拓扑排序
 from Queue import Queue
 from collections import Counter
+
+
 class Solution(object):
     def canFinish(self, numCourses, prerequisites):
         """
@@ -21,7 +23,7 @@ class Solution(object):
                 q.put(i)
         if q.empty():
             return False
-        while(not q.empty()):
+        while not q.empty():
             cur = q.get()
             count += 1
             for item in graph[cur]:

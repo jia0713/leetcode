@@ -5,7 +5,7 @@ class Solution(object):
         :type k: int
         :rtype: int
         """
-        hash_table, res, count = {0:1}, 0, 0
+        hash_table, res, count = {0: 1}, 0, 0
         for i, num in enumerate(nums):
             count += num
             if count - k in hash_table:

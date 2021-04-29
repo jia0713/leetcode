@@ -16,8 +16,8 @@ class Solution:
                 alist[i] = blist
         return alist
 
+
 if __name__ == "__main__":
     sol = Solution()
     answer = sol.generate(numRows=5)
-    print (answer)
-
+    print(answer)

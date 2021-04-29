@@ -8,7 +8,7 @@ class Solution(object):
         if target == nums[0]:
             return 0
         bp = 0
-        while(bp < len(nums) - 1):
+        while bp < len(nums) - 1:
             if nums[bp] > nums[bp + 1]:
                 break
             bp += 1
@@ -16,7 +16,7 @@ class Solution(object):
             left, right = 0, bp
         else:
             left, right = bp + 1, len(nums) - 1
-        while(left <= right):
+        while left <= right:
             mid = left + (right - left) // 2
             if nums[mid] == target:
                 return mid

@@ -5,7 +5,7 @@ class Solution(object):
         :type k: int
         :rtype: List[int]
         """
-        hash_table, res, max_freq, count = {},[],0, 0
+        hash_table, res, max_freq, count = {}, [], 0, 0
         for num in nums:
             if num in hash_table:
                 hash_table[num] += 1

@@ -6,6 +6,8 @@ class Node(object):
         self.children = children
 """
 from collections import deque
+
+
 class Solution(object):
     def maxDepth(self, root):
         """
@@ -16,7 +18,7 @@ class Solution(object):
             return 0
         res, queue = 0, deque()
         queue.append(root)
-        while(queue):
+        while queue:
             res += 1
             length = len(queue)
             for i in range(length):

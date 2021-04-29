@@ -6,7 +6,7 @@ class Solution(object):
         :rtype: int
         """
         left, right = 0, len(nums) - 1
-        while(left <= right):
+        while left <= right:
             if nums[left] == val:
                 nums[left], nums[right], right = nums[right], nums[left], right - 1
             else:

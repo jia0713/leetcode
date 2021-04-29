@@ -11,7 +11,7 @@ class Solution(object):
         :rtype: int
         """
         return max(self.helper(root))
-    
+
     def helper(self, root):
         if not root:
             return 0, 0

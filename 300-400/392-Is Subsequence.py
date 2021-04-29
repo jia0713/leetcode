@@ -6,7 +6,7 @@ class Solution(object):
         :rtype: bool
         """
         i, j = 0, 0
-        while(i < len(s) and j < len(t)):
+        while i < len(s) and j < len(t):
             if s[i] == t[j]:
                 i += 1
             j += 1

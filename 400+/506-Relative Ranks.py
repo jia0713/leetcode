@@ -1,4 +1,6 @@
 import heapq
+
+
 class Solution(object):
     def findRelativeRanks(self, nums):
         """
@@ -10,7 +12,7 @@ class Solution(object):
         for i, num in enumerate(nums):
             heapq.heappush(heap, (-num, i))
         count = 0
-        while(heap):
+        while heap:
             count += 1
             neg_score, i = heapq.heappop(heap)
             if count == 1:

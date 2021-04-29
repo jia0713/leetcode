@@ -8,7 +8,7 @@ class Solution(object):
             return False
         strs = str(x)
         l, r = 0, len(strs) - 1
-        while(l < r):
+        while l < r:
             if strs[l] != strs[r]:
                 return False
             l += 1

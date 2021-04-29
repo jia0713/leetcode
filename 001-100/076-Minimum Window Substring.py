@@ -26,7 +26,7 @@ class Solution(object):
                 break
         if count != len(t):
             return ""
-        while(start <= temp):
+        while start <= temp:
             if s[start] not in maps:
                 start += 1
             else:
@@ -36,12 +36,12 @@ class Solution(object):
                 else:
                     maps[s[start]] == mapt[s[start]]
                     break
-        min_length, res = temp - start + 1, s[start:temp + 1]
+        min_length, res = temp - start + 1, s[start : temp + 1]
         for i in range(temp + 1, len(s)):
             if s[i] in maps:
                 maps[s[i]] += 1
                 if s[i] == s[start]:
-                    while(start < i):
+                    while start < i:
                         if s[start] in maps:
                             if maps[s[start]] == mapt[s[start]]:
                                 break
@@ -49,5 +49,5 @@ class Solution(object):
                                 maps[s[start]] -= 1
                         start += 1
                 if min_length > i - start + 1:
-                    min_length, res = i - start + 1, s[start:i + 1]
+                    min_length, res = i - start + 1, s[start : i + 1]
         return res

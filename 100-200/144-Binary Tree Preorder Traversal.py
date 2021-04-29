@@ -16,7 +16,7 @@ class Solution(object):
             return []
         p, res = root, []
         pstack = [root]
-        while(pstack):
+        while pstack:
             p = pstack.pop()
             res = res + [p.val]
             if p.right:
@@ -24,6 +24,7 @@ class Solution(object):
             if p.left:
                 pstack.append(p.left)
         return res
+
 
 # 解法二对前序，中序，后序遍历通用
 class Solution_2(object):
@@ -36,7 +37,7 @@ class Solution_2(object):
             return []
         p = root
         pstack, res = [], []
-        while(pstack or p):
+        while pstack or p:
             if not p:
                 p = pstack.pop()
                 p = p.right

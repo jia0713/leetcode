@@ -8,6 +8,7 @@ class Node(object):
         self.next = next
 """
 
+
 class Solution(object):
     def connect(self, root):
         """
@@ -16,9 +17,9 @@ class Solution(object):
         """
         if root:
             layer_root = root
-            while(layer_root.left):
+            while layer_root.left:
                 cur = layer_root
-                while(cur):
+                while cur:
                     cur.left.next = cur.right
                     if cur.next:
                         cur.right.next = cur.next.left

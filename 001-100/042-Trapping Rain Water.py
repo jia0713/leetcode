@@ -16,5 +16,5 @@ class Solution(object):
         for k in range(len(height)):
             edge = min(left[k], right[k])
             if edge > height[k]:
-                res += (edge - height[k])
+                res += edge - height[k]
         return res

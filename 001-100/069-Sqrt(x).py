@@ -7,7 +7,7 @@ class Solution(object):
         if x == 0 or x == 1:
             return x
         left, right, mid = 0, x, x // 2
-        while(True):
+        while True:
             if left == right or left == right - 1:
                 return mid
             if mid * mid > x:

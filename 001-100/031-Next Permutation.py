@@ -7,7 +7,7 @@ class Solution:
         if not nums:
             return nums
         flag = 0
-        for index in range(len(nums)-1, 0, -1):
+        for index in range(len(nums) - 1, 0, -1):
             flag = index
             if nums[index] > nums[index - 1]:
                 break
@@ -28,8 +28,8 @@ class Solution:
         return nums
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
 
     sol = Solution()
     answer = sol.nextPermutation(nums=[1, 2, 3])
-    print (answer)
+    print(answer)

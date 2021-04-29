@@ -7,7 +7,7 @@ class Solution(object):
         if not root:
             return []
         inorder_stack, res, p = [], [], root
-        while(True):
+        while True:
             if p != None:
                 inorder_stack.append(p)
                 p = p.left
@@ -20,7 +20,8 @@ class Solution(object):
                 inorder_stack.pop()
         return res
 
-#前序，中序，后序通用解法
+
+# 前序，中序，后序通用解法
 class Solution_2(object):
     def inorderTraversal(self, root):
         """
@@ -30,7 +31,7 @@ class Solution_2(object):
         if not root:
             return []
         p, istack, res = root, [], []
-        while(p or istack):
+        while p or istack:
             if not p:
                 p = istack.pop()
                 res.append(p.val)
@@ -43,7 +44,3 @@ class Solution_2(object):
                     istack.append(p)
                     p = p.left
         return res
-
-
-
-        

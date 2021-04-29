@@ -19,6 +19,4 @@ class Solution:
 if __name__ == "__main__":
     sol = Solution()
     answer = sol.getRow(rowIndex=5)
-    print (answer)
-
-
+    print(answer)

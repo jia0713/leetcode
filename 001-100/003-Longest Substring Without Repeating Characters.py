@@ -18,26 +18,7 @@ class Solution:
         return max_length
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     sol = Solution()
-    answer = sol.lengthOfLongestSubstring('abcabcbb')
+    answer = sol.lengthOfLongestSubstring("abcabcbb")
     print(answer)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
