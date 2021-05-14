@@ -51,3 +51,35 @@ class Solution(object):
                 if min_length > i - start + 1:
                     min_length, res = i - start + 1, s[start : i + 1]
         return res
+
+
+from collections import Counter
+
+
+class Solution_2(object):
+    def minWindow(self, s, t):
+        """
+        :type s: str
+        :type t: str
+        :rtype: str
+        """
+        if s[0] == t:
+            return t
+        res, left, right, min_len = "", 0, 0, float("inf")
+        counter, cur = Counter(t), Counter(s[0])
+        while right < len(s) - 1:
+            right += 1
+            cur[s[right]] += 1
+            while self.is_valid(cur, counter):
+                temp = s[left : right + 1]
+                if len(temp) < min_len:
+                    res, min_len = temp, len(temp)
+                cur[s[left]] -= 1
+                left += 1
+        return res
+
+    def is_valid(self, cur, counter):
+        for key in counter:
+            if counter[key] > cur[key]:
+                return False
+        return True

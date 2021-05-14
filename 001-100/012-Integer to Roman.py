@@ -29,3 +29,14 @@ class Solution(object):
                     key = rdict[int(pow(10, 3 - i))] + rdict[int(pow(10, 4 - i))]
                 roman_str += key
         return roman_str
+
+
+class Solution_2(object):
+    def intToRoman(self, num):
+        M = ["", "M", "MM", "MMM"]  # 1000，2000，3000
+        C = ["", "C", "CC", "CCC", "CD", "D", "DC", "DCC", "DCCC", "CM"]  # 100~900
+        X = ["", "X", "XX", "XXX", "XL", "L", "LX", "LXX", "LXXX", "XC"]  # 10~90
+        I = ["", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX"]  # 1~9
+        return (
+            M[num // 1000] + C[(num % 1000) // 100] + X[(num % 100) // 10] + I[num % 10]
+        )
