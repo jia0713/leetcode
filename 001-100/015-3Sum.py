@@ -18,10 +18,3 @@ class Solution:
                 else:
                     dic[i] = nums[i]
         return res
-
-
-if __name__ == "__main__":
-
-    sol = Solution()
-    answer = sol.threeSum([1, -1, 1, -1, 0])
-    print(answer)

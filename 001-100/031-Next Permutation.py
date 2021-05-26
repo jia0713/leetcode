@@ -26,10 +26,3 @@ class Solution:
                     nums[index] = temp
             end -= 1
         return nums
-
-
-if __name__ == "__main__":
-
-    sol = Solution()
-    answer = sol.nextPermutation(nums=[1, 2, 3])
-    print(answer)

@@ -51,3 +51,23 @@ class Solution_2(object):
                     else:
                         dp[i] = i - j + 1
         return max(dp)
+
+
+class Solution_3(object):
+    def longestValidParentheses(self, s):
+        """
+        :type s: str
+        :rtype: int
+        """
+        stack, res = [], 0
+        helper = [-float("inf")] * len(s)
+        for index, char in enumerate(s):
+            if char == "(":
+                stack.append(index)
+            elif char == ")" and stack:
+                left_index = stack.pop()
+                helper[index] = index - left_index + 1
+                if left_index >= 1 and helper[left_index - 1] > 0:
+                    helper[index] = helper[index] + helper[left_index - 1]
+                res = max(res, helper[index])
+        return res

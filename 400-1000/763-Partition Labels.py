@@ -1,22 +1,24 @@
+from collections import defaultdict
+
+
 class Solution(object):
-    def partitionLabels(self, S):
+    def partitionLabels(self, s):
         """
-        :type S: str
+        :type s: str
         :rtype: List[int]
         """
-        # hash_table记录该字母最后一次出现的位置
-        hash_table = {}
-        for i, char in enumerate(S):
-            hash_table[char] = i
-        start, end, length, res = 0, 0, 1, []
-        for i in range(len(S)):
-            char = S[i]
-            end = max(hash_table[char], end)
-            length = end - start + 1
-            if i == end:
-                if i < len(S) - 1:
-                    start, end = i + 1, hash_table[S[i + 1]]
-                res.append(length)
+        hash_table = defaultdict(int)
+        for index, char in enumerate(s):
+            hash_table[char] = index
+        start, left = 0, 0
+        res = []
+        while start < len(s):
+            right = hash_table[s[left]]
+            while left <= right:
+                right = max(right, hash_table[s[left]])
+                left += 1
+            res.append(right - start + 1)
+            start, left = right + 1, right + 1
         return res
 
 
