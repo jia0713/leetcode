@@ -4,26 +4,22 @@ class Solution(object):
         :type grid: List[List[str]]
         :rtype: int
         """
-        if not grid:
-            return 0
+        self.res = 0
         self.grid = grid
-        self.island = 0
-        self.row, self.col = len(self.grid), len(self.grid[0])
-        for i in range(self.row):
-            for j in range(self.col):
+        row, col = len(grid), len(grid[0])
+        for i in range(row):
+            for j in range(col):
                 if self.grid[i][j] == "1":
-                    self.island += 1
+                    self.res += 1
                     self.dfs(i, j)
-        return self.island
+        return self.res
 
     def dfs(self, i, j):
-        if i < 0 or i >= self.row or j < 0 or j >= self.col:
+        row, col = len(self.grid), len(self.grid[0])
+        if i < 0 or i >= row or j < 0 or j >= col or self.grid[i][j] != "1":
             return
-        if self.grid[i][j] == "1":
-            self.grid[i][j] = "*"
-            self.dfs(i - 1, j)
-            self.dfs(i + 1, j)
-            self.dfs(i, j - 1)
-            self.dfs(i, j + 1)
-        else:
-            return
+        self.grid[i][j] = "*"
+        self.dfs(i + 1, j)
+        self.dfs(i - 1, j)
+        self.dfs(i, j + 1)
+        self.dfs(i, j - 1)
