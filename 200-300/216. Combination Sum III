@@ -1,0 +1,20 @@
+class Solution(object):
+    def combinationSum3(self, k, n):
+        """
+        :type k: int
+        :type n: int
+        :rtype: List[List[int]]
+        """
+        self.res = []
+        self.dfs([], k, n, 1)
+        return self.res
+
+    def dfs(self, path, k, target, cur):
+        left = k - len(path)
+        if cur > 10 or target < 0:
+            return
+        if target == 0 and left == 0:
+            self.res.append(path)
+            return
+        self.dfs(path + [cur], k, target - cur, cur + 1)
+        self.dfs(path, k, target, cur + 1)
