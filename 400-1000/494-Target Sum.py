@@ -1,3 +1,5 @@
+# 经典的0-1背包问题
+
 class Solution:
     def findTargetSumWays(self, nums, S):
         sum_nums = sum(nums)

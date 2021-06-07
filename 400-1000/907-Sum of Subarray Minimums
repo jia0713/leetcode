@@ -1,0 +1,20 @@
+# DFS超时
+
+class Solution(object):
+    def sumSubarrayMins(self, arr):
+        """
+        :type arr: List[int]
+        :rtype: int
+        """
+        self.res = 0
+        for index, num in enumerate(arr):
+            self.dfs(num, index, arr)
+        return self.res
+
+    def dfs(self, cur_min, cur_index, arr):
+        if cur_index >= len(arr):
+            return
+        if arr[cur_index] <= cur_min:
+            cur_min = arr[cur_index]
+        self.res = (self.res + cur_min) % (1e9 + 7)
+        self.dfs(cur_min, cur_index + 1, arr)
