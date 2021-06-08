@@ -17,8 +17,3 @@ class Solution:
             dic[s[i]] = i
         return max_length
 
-
-if __name__ == "__main__":
-    sol = Solution()
-    answer = sol.lengthOfLongestSubstring("abcabcbb")
-    print(answer)
