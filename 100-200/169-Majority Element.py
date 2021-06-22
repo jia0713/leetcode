@@ -12,7 +12,19 @@ class Solution:
                 return key
 
 
-if __name__ == "__main__":
-    sol = Solution()
-    answer = sol.majorityElement([1, 3, 1, 3, 3, 3])
-    print(answer)
+# 摩尔投票法，空间复杂度O(1)
+class Solution_2(object):
+    def majorityElement(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: int
+        """
+        candi, freq = nums[0], 1
+        for num in nums[1:]:
+            if num == candi:
+                freq += 1
+            elif freq == 0:
+                candi, freq = num, 0
+            elif freq > 0:
+                freq -= 1
+        return candi
