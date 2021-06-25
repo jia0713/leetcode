@@ -17,3 +17,22 @@ class Solution:
             dic[s[i]] = i
         return max_length
 
+
+from collections import defaultdict
+
+
+class Solution_2(object):
+    def lengthOfLongestSubstring(self, s):
+        """
+        :type s: str
+        :rtype: int
+        """
+        counter = defaultdict(int)
+        left, right, res = 0, 0, 0
+        while right < len(s):
+            if s[right] in counter:
+                left = max(left, counter[s[right]] + 1)
+            counter[s[right]] = right
+            res = max(res, right - left + 1)
+            right += 1
+        return res
