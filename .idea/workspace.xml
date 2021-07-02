@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b9acae8-0cba-47eb-8c88-d65267395920" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/LeetCode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/LeetCode.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/001-100/003-Longest Substring Without Repeating Characters.py" beforeDir="false" afterPath="$PROJECT_DIR$/001-100/003-Longest Substring Without Repeating Characters.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/100-200/127-Word Ladder.py" beforeDir="false" afterPath="$PROJECT_DIR$/100-200/127-Word Ladder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/200-300/279-Perfect Squares.py" beforeDir="false" afterPath="$PROJECT_DIR$/200-300/279-Perfect Squares.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/300-400/322-Coin Change.py" beforeDir="false" afterPath="$PROJECT_DIR$/300-400/322-Coin Change.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,6 +117,16 @@
       <workItem from="1624514269701" duration="121000" />
       <workItem from="1624518674122" duration="1909000" />
       <workItem from="1624521135280" duration="6000" />
+      <workItem from="1624588043483" duration="53000" />
+      <workItem from="1624589924181" duration="1591000" />
+      <workItem from="1624608184192" duration="3224000" />
+      <workItem from="1624861570959" duration="3976000" />
+      <workItem from="1624931599348" duration="4138000" />
+      <workItem from="1625024293801" duration="3119000" />
+      <workItem from="1625042371362" duration="2115000" />
+      <workItem from="1625129925064" duration="5129000" />
+      <workItem from="1625189973186" duration="5981000" />
+      <workItem from="1625203103399" duration="5017000" />
     </task>
     <task id="LOCAL-00001" summary="Update 2021-06-23">
       <created>1624434563562</created>
@@ -126,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624434563562</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Update 2021-06-24">
+      <created>1624588077408</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1624588077408</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -172,12 +188,10 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Update 2021-06-23" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update 2021-06-23" />
+    <MESSAGE value="Update 2021-06-24" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update 2021-06-24" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/leetcode$647_Palindromic_Substrings.coverage" NAME="647-Palindromic Substrings Coverage Results" MODIFIED="1622546856581" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/400-1000" />
@@ -188,12 +202,16 @@
     <SUITE FILE_PATH="coverage/leetcode$983_Minimum_Cost_For_Tickets.coverage" NAME="983-Minimum Cost For Tickets Coverage Results" MODIFIED="1622614960898" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/400-1000" />
     <SUITE FILE_PATH="coverage/leetcode$1524.coverage" NAME="1524 Coverage Results" MODIFIED="1624433918933" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1000+" />
     <SUITE FILE_PATH="coverage/leetcode$400.coverage" NAME="400 Coverage Results" MODIFIED="1624345326023" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/300-400" />
+    <SUITE FILE_PATH="coverage/leetcode$279_Perfect_Squares.coverage" NAME="279-Perfect Squares Coverage Results" MODIFIED="1624611059516" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/200-300" />
+    <SUITE FILE_PATH="coverage/leetcode$131.coverage" NAME="131 Coverage Results" MODIFIED="1625202829090" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/100-200" />
     <SUITE FILE_PATH="coverage/leetcode$227.coverage" NAME="227 Coverage Results" MODIFIED="1623923013632" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/200-300" />
     <SUITE FILE_PATH="coverage/leetcode$907.coverage" NAME="907 Coverage Results" MODIFIED="1624265664063" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/400-1000" />
     <SUITE FILE_PATH="coverage/leetcode$233.coverage" NAME="233 Coverage Results" MODIFIED="1624342517693" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/200-300" />
     <SUITE FILE_PATH="coverage/leetcode$island_number.coverage" NAME="island_number Coverage Results" MODIFIED="1622625542774" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/100-200" />
     <SUITE FILE_PATH="coverage/leetcode$401.coverage" NAME="401 Coverage Results" MODIFIED="1624247930314" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/400-1000" />
     <SUITE FILE_PATH="coverage/leetcode$474.coverage" NAME="474 Coverage Results" MODIFIED="1623048995770" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/400-1000" />
+    <SUITE FILE_PATH="coverage/leetcode$815_Bus_Routes.coverage" NAME="815-Bus Routes Coverage Results" MODIFIED="1624933405004" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/400-1000" />
+    <SUITE FILE_PATH="coverage/leetcode$131_Palindrome_Partitioning.coverage" NAME="131-Palindrome Partitioning Coverage Results" MODIFIED="1625203230227" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/100-200" />
     <SUITE FILE_PATH="coverage/leetcode$216.coverage" NAME="216 Coverage Results" MODIFIED="1622640597123" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/200-300" />
     <SUITE FILE_PATH="coverage/leetcode$523.coverage" NAME="523 Coverage Results" MODIFIED="1622600515758" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/400-1000" />
     <SUITE FILE_PATH="coverage/leetcode$713.coverage" NAME="713 Coverage Results" MODIFIED="1622723945674" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/400-1000" />
