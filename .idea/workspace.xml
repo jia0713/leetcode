@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2b9acae8-0cba-47eb-8c88-d65267395920" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/100-200/127-Word Ladder.py" beforeDir="false" afterPath="$PROJECT_DIR$/100-200/127-Word Ladder.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/200-300/279-Perfect Squares.py" beforeDir="false" afterPath="$PROJECT_DIR$/200-300/279-Perfect Squares.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/300-400/322-Coin Change.py" beforeDir="false" afterPath="$PROJECT_DIR$/300-400/322-Coin Change.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/001-100/034-Find First and Last Position of Element in Sorted Array.py" beforeDir="false" afterPath="$PROJECT_DIR$/001-100/034-Find First and Last Position of Element in Sorted Array.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,6 +98,58 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
+  <component name="RunManager" selected="Python.047-Permutations II">
+    <configuration name="047-Permutations II" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/001-100" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="D:\PycharmProjects\leetcode\001-100\047-Permutations II.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="1418-Display Table of Food Orders in a Restaurant" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1000+" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="D:\PycharmProjects\leetcode\1000+\1418-Display Table of Food Orders in a Restaurant.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.047-Permutations II" />
+        <item itemvalue="Python.1418-Display Table of Food Orders in a Restaurant" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
@@ -126,7 +176,16 @@
       <workItem from="1625042371362" duration="2115000" />
       <workItem from="1625129925064" duration="5129000" />
       <workItem from="1625189973186" duration="5981000" />
-      <workItem from="1625203103399" duration="5017000" />
+      <workItem from="1625203103399" duration="5142000" />
+      <workItem from="1625217059856" duration="1667000" />
+      <workItem from="1625539083913" duration="2868000" />
+      <workItem from="1625552434382" duration="1991000" />
+      <workItem from="1625623458510" duration="3067000" />
+      <workItem from="1625711888679" duration="2230000" />
+      <workItem from="1626248371644" duration="3241000" />
+      <workItem from="1626331191241" duration="458000" />
+      <workItem from="1626400671508" duration="17000" />
+      <workItem from="1626402705976" duration="670000" />
     </task>
     <task id="LOCAL-00001" summary="Update 2021-06-23">
       <created>1624434563562</created>
@@ -142,7 +201,21 @@
       <option name="project" value="LOCAL" />
       <updated>1624588077408</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Update 2021-07-02">
+      <created>1625212811194</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1625212811194</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Update 2021-07-07">
+      <created>1625637005848</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1625637005848</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -191,7 +264,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Update 2021-06-23" />
     <MESSAGE value="Update 2021-06-24" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update 2021-06-24" />
+    <MESSAGE value="Update 2021-07-02" />
+    <MESSAGE value="Update 2021-07-07" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update 2021-07-07" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/leetcode$647_Palindromic_Substrings.coverage" NAME="647-Palindromic Substrings Coverage Results" MODIFIED="1622546856581" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/400-1000" />
@@ -202,6 +277,7 @@
     <SUITE FILE_PATH="coverage/leetcode$983_Minimum_Cost_For_Tickets.coverage" NAME="983-Minimum Cost For Tickets Coverage Results" MODIFIED="1622614960898" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/400-1000" />
     <SUITE FILE_PATH="coverage/leetcode$1524.coverage" NAME="1524 Coverage Results" MODIFIED="1624433918933" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1000+" />
     <SUITE FILE_PATH="coverage/leetcode$400.coverage" NAME="400 Coverage Results" MODIFIED="1624345326023" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/300-400" />
+    <SUITE FILE_PATH="coverage/leetcode$1418.coverage" NAME="1418 Coverage Results" MODIFIED="1625541191239" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1000+" />
     <SUITE FILE_PATH="coverage/leetcode$279_Perfect_Squares.coverage" NAME="279-Perfect Squares Coverage Results" MODIFIED="1624611059516" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/200-300" />
     <SUITE FILE_PATH="coverage/leetcode$131.coverage" NAME="131 Coverage Results" MODIFIED="1625202829090" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/100-200" />
     <SUITE FILE_PATH="coverage/leetcode$227.coverage" NAME="227 Coverage Results" MODIFIED="1623923013632" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/200-300" />
@@ -213,6 +289,7 @@
     <SUITE FILE_PATH="coverage/leetcode$815_Bus_Routes.coverage" NAME="815-Bus Routes Coverage Results" MODIFIED="1624933405004" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/400-1000" />
     <SUITE FILE_PATH="coverage/leetcode$131_Palindrome_Partitioning.coverage" NAME="131-Palindrome Partitioning Coverage Results" MODIFIED="1625203230227" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/100-200" />
     <SUITE FILE_PATH="coverage/leetcode$216.coverage" NAME="216 Coverage Results" MODIFIED="1622640597123" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/200-300" />
+    <SUITE FILE_PATH="coverage/leetcode$047.coverage" NAME="047 Coverage Results" MODIFIED="1625554312608" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/001-100" />
     <SUITE FILE_PATH="coverage/leetcode$523.coverage" NAME="523 Coverage Results" MODIFIED="1622600515758" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/400-1000" />
     <SUITE FILE_PATH="coverage/leetcode$713.coverage" NAME="713 Coverage Results" MODIFIED="1622723945674" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/400-1000" />
     <SUITE FILE_PATH="coverage/leetcode$003_Longest_Substring_Without_Repeating_Characters.coverage" NAME="003-Longest Substring Without Repeating Characters Coverage Results" MODIFIED="1624513313600" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/001-100" />
